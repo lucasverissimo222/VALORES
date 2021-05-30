@@ -1,0 +1,53 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+  
+  * {
+    box-sizing: border-box;
+    outline: 0;
+ 
+    padding: 0;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+ 
+  
+  }
+  
+p {
+  font-size: 1.5rem;
+}
+  body {
+
+    padding: 0;
+    background-color: cornflowerblue;
+ 
+    font-size: 1.3em;
+
+  }
+  
+  header {
+  text-align: center;
+  }
+
+  section{
+    margin: auto;
+    background: white;
+    padding: 1.1rem;
+    max-width: 50rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black ;
+  }
+#lista{
+  width: 150px;
+}
+
+  footer{
+    
+margin-left: 50%;
+
+font-style: italic;
+  }
